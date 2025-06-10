@@ -32,5 +32,17 @@ Spatial Statistics, 100773.
    git clone https://github.com/your-repo/Space-Time.DeepKriging.git
    cd Space-Time.DeepKriging
 ---
+## 🔗 PyTorch Implementations
 
-We are in the process of upgrading the code to PyTorch, incorporating architectural modifications for improved performance and efficiency.
+We also provide standalone PyTorch repositories for key spatio-temporal modeling components used in this project:
+
+- 📌 **Spatio-temporal DeepKriging (STDK) for Interpolation**  
+  Reproducible and modular implementation of ST DeepKriging interpolation.  
+  🔗 [Spatio-temporalDeepKriging-Pytorch](https://github.com/pratiknag/Spatio-temporalDeepKriging-Pytorch.git)
+
+- 🔁 **ConvLSTM for Forecasting**  
+  A clean, reusable PyTorch implementation of ConvLSTM for spatio-temporal forecasting tasks.  
+  🔗 [pytorch-convlstm](https://github.com/pratiknag/pytorch-convlstm.git)
+
+These repositories are designed for reusability and clarity, making it easier to incorporate or benchmark these models in your own research.
+
